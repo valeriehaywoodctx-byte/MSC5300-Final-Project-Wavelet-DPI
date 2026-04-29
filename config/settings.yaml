@@ -1,0 +1,14 @@
+# Global Project Settings
+project_name: "Wavelet_DPI_Accelerator"
+version: "1.0.0"
+
+# Dataset Configuration
+data_settings:
+  size_kb: 500          # We're upping it to 500KB now!
+  seed: 42              # Ensures reproducibility (Part 3 requirement)
+  target_byte: 108      # The byte we are searching for ('l')
+
+# Logging & Performance
+logging:
+  level: "INFO"
+  save_to_file: true
